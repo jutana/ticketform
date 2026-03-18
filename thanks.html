@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Received | Integral Solutions</title>
+    <style>
+        :root {
+            --brand-blue: #004a99;
+            --text-main: #1e293b;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .success-card {
+            background: white;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+            max-width: 450px;
+            border-top: 6px solid #22c55e; /* Green for success */
+        }
+        .icon {
+            font-size: 50px;
+            color: #22c55e;
+            margin-bottom: 20px;
+        }
+        h1 { color: var(--brand-blue); margin-bottom: 10px; }
+        p { color: #64748b; line-height: 1.6; margin-bottom: 30px; }
+        .btn-back {
+            display: inline-block;
+            text-decoration: none;
+            background: var(--brand-blue);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: opacity 0.2s;
+        }
+        .btn-back:hover { opacity: 0.9; }
+    </style>
+</head>
+<body>
+
+    <div class="success-card">
+        <div class="icon">✓</div>
+        <h1>Ticket Submitted!</h1>
+        <p>Thank you. Your support request has been sent to <strong>tickets@integralsolutions.ca</strong>. A technician will review your details shortly.</p>
+
+        <a href="index.html" class="btn-back">Submit Another Ticket</a>
+    </div>
+
+</body>
+</html>
